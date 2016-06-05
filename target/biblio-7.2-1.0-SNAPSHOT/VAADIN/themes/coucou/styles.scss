@@ -1,0 +1,21 @@
+@import "addons.scss";
+@import "vaadin_biblio.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in vaadin_biblio.scss */
+.vaadin_biblio {
+  @include addons;
+  @include vaadin_biblio;
+}
+
+.v-label{
+text-align: justify;
+}
+
+.imgBibli{
+margin-left:20px;
+}
+
+.form{
+margin-left:20%;
+}
